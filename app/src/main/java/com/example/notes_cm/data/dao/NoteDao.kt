@@ -9,6 +9,7 @@ import androidx.room.Query
 import androidx.room.Update
 import com.example.notes_cm.data.entities.Note
 
+
 @Dao
 interface NoteDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
