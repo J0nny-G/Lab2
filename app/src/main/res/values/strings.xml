@@ -6,4 +6,6 @@
     <string name="at1">AT1</string>
     <string name="abrir_at2">Abrir AT2</string>
     <string name="fechar_at2">Fechar AT2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
