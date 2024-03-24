@@ -1,4 +1,4 @@
-package com.example.lab2
+package com.example.notes_cm
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

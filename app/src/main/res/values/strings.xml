@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Lab2</string>
+    <string name="app_name">test</string>
+    <string name="fechar">Fechar</string>
+    <string name="Joao_Goncalves_28247">Joao Goncalves 28247</string>
+    <string name="at2">AT2</string>
+    <string name="at1">AT1</string>
+    <string name="abrir_at2">Abrir AT2</string>
+    <string name="fechar_at2">Fechar AT2</string>
 </resources>
