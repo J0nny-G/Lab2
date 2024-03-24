@@ -9,19 +9,17 @@ import androidx.room.Query
 import androidx.room.Update
 import com.example.notes_cm.data.entities.Note
 
-class NoteDao {
-    @Dao
-    interface NoteDao {
-        @Insert(onConflict = OnConflictStrategy.IGNORE)
-        suspend fun addNote(note: Note)
+@Dao
+interface NoteDao {
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun addNote(note: Note)
 
-        @Update
-        suspend fun updateNote(note: Note)
+    @Update
+    suspend fun updateNote(note: Note)
 
-        @Query("SELECT * FROM notes ORDER BY id DESC")
-        fun readAllNotes() : LiveData<List<Note>>
+    @Query("SELECT * FROM notes ORDER BY id DESC")
+    fun readAllNotes() : LiveData<List<Note>>
 
-        @Delete
-        suspend fun deleteNote(note: Note)
-    }
+    @Delete
+    suspend fun deleteNote(note: Note)
 }
